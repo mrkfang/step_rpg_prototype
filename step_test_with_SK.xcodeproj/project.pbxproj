@@ -17,6 +17,13 @@
 		EB31E6101E89872F001D9058 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB31E60E1E89872F001D9058 /* LaunchScreen.storyboard */; };
 		EB31E61B1E89872F001D9058 /* step_test_with_SKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB31E61A1E89872F001D9058 /* step_test_with_SKTests.swift */; };
 		EB31E6261E89872F001D9058 /* step_test_with_SKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB31E6251E89872F001D9058 /* step_test_with_SKUITests.swift */; };
+		EB31E6401E8C9A0D001D9058 /* mapScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EB31E63F1E8C9A0D001D9058 /* mapScene.sks */; };
+		EB31E6421E8C9ADE001D9058 /* mapScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB31E6411E8C9ADE001D9058 /* mapScene.swift */; };
+		EB31E6461E8DB8AF001D9058 /* wind.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB31E6451E8DB8AF001D9058 /* wind.mp3 */; };
+		EB31E64A1E8DC15F001D9058 /* soften.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB31E6491E8DC15F001D9058 /* soften.mp3 */; };
+		EB31E64C1E8E5F86001D9058 /* questScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB31E64B1E8E5F86001D9058 /* questScene.swift */; };
+		EB31E64E1E8E5FA7001D9058 /* questScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EB31E64D1E8E5FA7001D9058 /* questScene.sks */; };
+		EB31E6501E8EB031001D9058 /* fall.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB31E64F1E8EB031001D9058 /* fall.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,13 @@
 		EB31E6211E89872F001D9058 /* step_test_with_SKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = step_test_with_SKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB31E6251E89872F001D9058 /* step_test_with_SKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = step_test_with_SKUITests.swift; sourceTree = "<group>"; };
 		EB31E6271E89872F001D9058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB31E63F1E8C9A0D001D9058 /* mapScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = mapScene.sks; sourceTree = "<group>"; };
+		EB31E6411E8C9ADE001D9058 /* mapScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapScene.swift; sourceTree = "<group>"; };
+		EB31E6451E8DB8AF001D9058 /* wind.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wind.mp3; sourceTree = "<group>"; };
+		EB31E6491E8DC15F001D9058 /* soften.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = soften.mp3; sourceTree = "<group>"; };
+		EB31E64B1E8E5F86001D9058 /* questScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = questScene.swift; sourceTree = "<group>"; };
+		EB31E64D1E8E5FA7001D9058 /* questScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = questScene.sks; sourceTree = "<group>"; };
+		EB31E64F1E8EB031001D9058 /* fall.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fall.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,11 +118,18 @@
 			isa = PBXGroup;
 			children = (
 				EB31E5FF1E89872E001D9058 /* AppDelegate.swift */,
-				EB31E6011E89872F001D9058 /* GameScene.sks */,
 				EB31E6031E89872F001D9058 /* Actions.sks */,
+				EB31E63F1E8C9A0D001D9058 /* mapScene.sks */,
+				EB31E6411E8C9ADE001D9058 /* mapScene.swift */,
+				EB31E6011E89872F001D9058 /* GameScene.sks */,
 				EB31E6051E89872F001D9058 /* GameScene.swift */,
 				EB31E6071E89872F001D9058 /* GameViewController.swift */,
 				EB31E6091E89872F001D9058 /* Main.storyboard */,
+				EB31E6451E8DB8AF001D9058 /* wind.mp3 */,
+				EB31E6491E8DC15F001D9058 /* soften.mp3 */,
+				EB31E64F1E8EB031001D9058 /* fall.mp3 */,
+				EB31E64D1E8E5FA7001D9058 /* questScene.sks */,
+				EB31E64B1E8E5F86001D9058 /* questScene.swift */,
 				EB31E60C1E89872F001D9058 /* Assets.xcassets */,
 				EB31E60E1E89872F001D9058 /* LaunchScreen.storyboard */,
 				EB31E6111E89872F001D9058 /* Info.plist */,
@@ -245,10 +266,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB31E60B1E89872F001D9058 /* Main.storyboard in Resources */,
+				EB31E6501E8EB031001D9058 /* fall.mp3 in Resources */,
 				EB31E6021E89872F001D9058 /* GameScene.sks in Resources */,
 				EB31E60D1E89872F001D9058 /* Assets.xcassets in Resources */,
+				EB31E6401E8C9A0D001D9058 /* mapScene.sks in Resources */,
 				EB31E6101E89872F001D9058 /* LaunchScreen.storyboard in Resources */,
+				EB31E6461E8DB8AF001D9058 /* wind.mp3 in Resources */,
+				EB31E64E1E8E5FA7001D9058 /* questScene.sks in Resources */,
 				EB31E6041E89872F001D9058 /* Actions.sks in Resources */,
+				EB31E64A1E8DC15F001D9058 /* soften.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +300,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB31E6061E89872F001D9058 /* GameScene.swift in Sources */,
+				EB31E6421E8C9ADE001D9058 /* mapScene.swift in Sources */,
 				EB31E6081E89872F001D9058 /* GameViewController.swift in Sources */,
+				EB31E64C1E8E5F86001D9058 /* questScene.swift in Sources */,
 				EB31E6001E89872E001D9058 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,7 +458,7 @@
 				DEVELOPMENT_TEAM = XKHZH6NV2Y;
 				INFOPLIST_FILE = step_test_with_SK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.codingdojo.step-test-with-SK";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.steptest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -443,7 +471,7 @@
 				DEVELOPMENT_TEAM = XKHZH6NV2Y;
 				INFOPLIST_FILE = step_test_with_SK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.codingdojo.step-test-with-SK";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codingdojo.steptest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
